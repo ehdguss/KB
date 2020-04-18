@@ -1,0 +1,36 @@
+@import "reset.css";
+
+body {
+    /* color: #5a5a5a; */
+    font-size: 0.875em;
+    line-height: 1.5;
+    font-family: '맑은 고딕', 'Malgun Gothic','돋움',Dotum,AppleGothic,Tahoma,Helvetica,sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 10px 110px 0 110px;
+}
+
+.logo {
+    margin: 0 205px 0 0;
+    padding-top: 20px;
+}
+
+.menus {
+    display:flex;
+}
+
+.menu {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.menu:nth-child(2):after, .menu:nth-child(3):after, .menu:nth-child(8):after, .menu:nth-child(9):after {
+    content: "";
+    border: 0.2px solid black;
+    height: 12px;
+    margin: 0 10px 0 10px;
+}
